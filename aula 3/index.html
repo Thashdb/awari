@@ -4,88 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Froms</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
-<style>
-    body{
-        /* background-color: #CBF3F0; */
-        background-color: #2EC4B6;
-    }
-
-    #box{
-        background: url(image/fundo2.png) no-repeat white;
-        width: 450px;
-        margin: 100px auto;
-        padding: 10px;
-        border-radius: 6px;
-        box-sizing: border-box;        
-    }
-
-    #box-nav{
-        box-sizing: border-box;
-        /* border: 1px solid red; */
-        width: 300px;
-        margin: 0 auto;
-    }
-
-    img{
-        margin-left: 106px;
-    }
-
-    h2{
-        text-align: center;
-        /* color: #CBF3F0; */
-    }
-
-    p{
-        font-size: small;
-        font-weight: 600;
-        text-align: center;
-        /* color: #2EC4B6; */
-    }
-
-    input, textarea{
-        width: 100%;
-        height: 30px;
-        padding: 3px;
-        margin-top: 15px;
-        border-radius: 4px;
-        box-sizing: border-box;
-
-        border: 1px solid #FF9F1C;
-        /* color: #FF9F1C; */
-    }
-
-    textarea{
-        height: 120px;
-        padding: 3px 5px;
-        resize: none;
-    }
-
-    input[type=text]{
-        background: url(image/perfil2.png) no-repeat;
-        padding-left: 30px;
-    }
-
-    input[type=email]{
-        background: url(image/mail.png) no-repeat;
-        padding-left: 30px;
-    }
-
-    input[type=submit]{
-        background-color: #FF9F1C;
-        font-weight: 700;
-    }
-    input[type=submit]:hover{
-        transition: all 0.5s;
-        background-color: #f8c277;
-        color: #3c9c93;
-        border: none;
-    }
-
-
-
-</style>
 
 <body>
 
@@ -112,20 +35,7 @@
         </form>
 
         <!-- mensage -->
-        <script>
-            function formValidation(){
-                var PersonName = document.forms["contactUs"]["name"].value;
-                var pEmail = document.forms["contactUs"]["email"].value;
-                var pMensage = document.forms["contactUs"]["comt"].value;
-
-                alert("Hello, " + PersonName + "!\nThe provided e-mail was: '" +pEmail+"', and your mensage was:\n'"+pMensage+"'");
-                
-
-                return true;
-
-            }
-
-        </script>
+        <script src="script.js" ></script>
 
     </div>
     
