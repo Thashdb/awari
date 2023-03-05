@@ -1,0 +1,99 @@
+:root{
+    --color1: #fac474;
+    --color2: black;
+    --color3: #b4afa8;
+    --color4: #5f5d5c
+
+    --logo: url(images/5sos-logo.png) no-repeat;
+
+
+}
+
+/*! standart */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*! head */
+header{
+    background-color: var(--color2);
+    width: 100%;
+    height: 85px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+
+}
+
+/* #headContent{
+    margin: 0 auto;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+header h1 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 23px;
+    width: 125px;
+    height: 137px;
+    display: block;
+    text-indent: -9999px;
+    background: var(--logo);
+}
+header nav{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color3);
+    /* font-size; */
+}
+header nav a:hover{
+    color: var(--color1);
+    transition: all 0.4s;
+}
+
+header nav a+a{
+    margin-left: 15px;
+}
+
+/*! body */
+
+body{
+    background: linear-gradient(to bottom, var(--color2), var(--color3)) no-repeat;
+    background: var(--color3);
+    justify-content: space-between;
+}
+
+#main{
+    width: 1080px;
+    margin: 10px auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 710px;
+}
+
+article{
+    margin-bottom: 4px;
+    border-bottom: dotted 2px var(--color2);
+
+}
+
+aside{
+    border: 1px solid purple;
+    width: 340px;
+    display: block;
+}

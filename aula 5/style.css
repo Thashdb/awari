@@ -1,0 +1,78 @@
+:root{
+    --background: #D8B2D8;
+    --border: #59518f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--background);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex: 1;
+}
+
+#box{
+    background: white;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: #15181d 0px 8px 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#top{
+    margin: 10px auto;
+}
+
+#content{
+    /* margin: ; */
+    border-top: 1px dashed lightgray;
+    border-bottom: 1px dashed lightgray;
+}
+
+#content p{
+    text-align: justify;
+    margin: 3px 0;
+}
+
+/* -------- */
+
+footer{
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a+a{
+    padding-left: 5px;
+}
+
+#github{
+    background: url(images/git2.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+#linkedin{
+    background: url(images/link.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+#web{
+    background: url(images/web.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+
