@@ -9,3 +9,4 @@ Repositório para atividades de aula do curso de FrontEnd da Awari
 3. Aula 3 - Tecnologias WEB
 4. Aula 4 - HTML: a estrutura WEB
 5. Aula 5 - CSS: estilos e formatação
+6. Aula 6 - Programação em JavaScript
