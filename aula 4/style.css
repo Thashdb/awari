@@ -2,7 +2,7 @@
     --color1: #fac474;
     --color2: black;
     --color3: #b4afa8;
-    --color4: #5f5d5c
+    --color4: #5f5d5c;
 
     --logo: url(images/5sos-logo.png) no-repeat;
 
@@ -96,4 +96,91 @@ aside{
     border: 1px solid purple;
     width: 340px;
     display: block;
+}
+
+footer{
+    border-top: 2px solid var(--color4);
+    text-align: center;
+    padding: 14px 0;
+    /* margin: 20px auto; */
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a+a{
+    padding-left: 5px;
+}
+
+#youtube{
+    background: url(images/youtube.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+#youtube:hover{
+    background: url(images/youtube1.png) no-repeat;
+    transition: all 0.4s;
+}
+
+#tiktok{
+    background: url(images/tiktok.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+#tiktok:hover{
+    background: url(images/tiktok1.png) no-repeat;
+    transition: all 0.4s;
+}
+
+#facebook{
+    background: url(images/facebook.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+#facebook:hover{
+    background: url(images/facebook1.png) no-repeat;
+    transition: all 0.4s;
+}
+
+#twitter{
+    background: url(images/twitter.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+#twitter:hover{
+    background: url(images/twitter1.png) no-repeat;
+    transition: all 0.4s;
+}
+
+
+#instagram{
+    background: url(images/instagram.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+#instagram:hover{
+    background: url(images/instagram1.png) no-repeat;
+    transition: all 0.4s;
+}
+
+#spotify{
+    background: url(images/spotify.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+#spotify:hover{
+    background: url(images/spotify1.png) no-repeat;
+    transition: all 0.4s;
 }

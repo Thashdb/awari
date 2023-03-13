@@ -44,8 +44,8 @@ body{
 /* -------- */
 
 footer{
-    margin: 10px auto;
-    justify-content: space-between;
+    justify-items: center;
+    /* justify-content: center; */
 }
 
 footer a{
