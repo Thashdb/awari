@@ -8,6 +8,6 @@ function formValidation(){
         text+="x = " + x + "<br>";
     }
     setTimeout(10000);
-    document.getElementById("answer").innerHTML=text;
+    document.getElementById('answer').innerHTML=text;
     return true;
 }
